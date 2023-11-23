@@ -1,0 +1,48 @@
+.react-checkbox-tree > ol {
+    margin: 0;
+    padding: 0;
+}
+
+.react-checkbox-tree li {
+    padding: 5px 0;
+}
+
+.react-checkbox-tree li::marker {
+    content: '';
+}
+
+.react-checkbox-tree .rct-text {
+    display: flex;
+    align-items: center;
+}
+
+.react-checkbox-tree .rct-text:hover {
+    cursor: pointer;
+    background-color: rgba(140,140,140, 0.5);
+}
+
+.react-checkbox-tree button.rct-collapse-btn {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+}
+
+.react-checkbox-tree button:hover {
+    border-color: transparent;
+}
+
+.react-checkbox-tree input {
+    display: none;
+}
+
+.react-checkbox-tree label {
+    display: flex;
+}
+
+li.rct-node-expanded > .rct-text {
+    background-color: rgba(140,140,140, 0.5);
+}
